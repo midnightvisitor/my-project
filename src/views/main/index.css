@@ -1,0 +1,26 @@
+/* ========= 系统基本颜色 ========= */
+.app-container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  min-height: 100%;
+}
+.app-container .app-content {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 auto;
+}
+.app-container .main-right {
+  flex-grow: 1;
+  overflow: hidden;
+}
+.app-container .app-tabs .el-tabs .el-tabs__header {
+  margin-bottom: 0;
+  border: 1px solid red;
+}
+.app-container .main-content {
+  height: 100%;
+  padding: 20px;
+  background: #f5f7fa;
+}
+/*# sourceMappingURL=index.css.map */

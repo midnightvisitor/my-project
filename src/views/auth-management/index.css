@@ -1,0 +1,36 @@
+/* ========= 系统基本颜色 ========= */
+.auth .tabs {
+  display: flex;
+  font-size: 14px;
+}
+.auth .tabs > li {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #a1a9c4;
+  background: #e5e5e5;
+  cursor: pointer;
+}
+.auth .tabs > li.active {
+  background: #fff;
+  color: #7b87ab;
+}
+.auth .auth-set-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  padding: 0 30px;
+  max-height: 350px;
+  min-height: 200px;
+  overflow: auto;
+}
+.auth .auth-set-list > li {
+  flex-shrink: 1;
+  flex-grow: 0;
+  flex-basis: 25%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */
